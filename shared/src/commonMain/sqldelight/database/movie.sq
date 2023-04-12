@@ -1,0 +1,31 @@
+CREATE TABLE movieEntity(
+  id TEXT NOT NULL PRIMARY KEY,
+  rank TEXT,
+  rankUpDown TEXT,
+  title TEXT,
+  fullTitle TEXT,
+  year TEXT,
+  image TEXT,
+  crew TEXT,
+  imDbRating TEXT,
+  imDbRatingCount TEXT
+);
+
+getAllFavouriteMovies:
+SELECT *
+FROM movieEntity;
+
+insertMovie:
+INSERT OR REPLACE
+INTO movieEntity(
+       id ,
+       rank ,
+       rankUpDown ,
+       title ,
+       fullTitle ,
+       year ,
+       image ,
+       crew ,
+       imDbRating ,
+       imDbRatingCount
+)VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);

@@ -1,5 +1,5 @@
 # ImdbMoviesKMM
-Android and iOS app built using Kotlin Multiplatforom, displaying movies🎬 from Imdb website, built according to Clean Architecture
+Android and iOS app built using Kotlin Multiplatform, displaying movies🎬 from Imdb website, built according to Clean Architecture
 <p>
 <image src="/assets/clean_arch.png">
 </p>
@@ -58,3 +58,9 @@ serialize feed data and store it locally
 
 ## iOS
 * [**Kingfisher**](https://github.com/onevcat/Kingfisher): Image loading library
+
+## Demo 
+
+
+https://user-images.githubusercontent.com/59395628/231593909-8c2f0ba4-f643-4c90-9693-812487661408.mp4
+
